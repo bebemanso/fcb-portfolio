@@ -1,0 +1,28 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p{
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+body{
+	background-color: #13FFF8;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2317FFF5' stroke-width='47.8' stroke-opacity='0.04' %3E%3Ccircle fill='%2313FFF8' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2300eff1' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2300e0e9' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2300d0e0' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2300c0d7' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2300b1cc' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2300a2c0' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%230093b4' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%230084a7' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23007699' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2303688b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%230f5a7c' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23144d6d' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2316405e' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2315344f' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23132840' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23101d32' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230B1224' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
